@@ -16,7 +16,7 @@ const TasksPage = () => {
                    onChange={e=>dispatch(changeTitleTask(e.target.value))}
                    className={styles.addInput} type="text" placeholder='Название задачи'/>
             <div className={styles.controller}>
-                    <Button color='#D75959' text='Отчистить' onClick={deleteAll} dispatch={dispatch}/>
+                    <Button color='#D75959' text='Очистить' onClick={deleteAll} dispatch={dispatch}/>
                     <Button color='#051021' text='Добавить' onClick={add} dispatch={dispatch} />
             </div>
             <TasksContainer/>

@@ -21,7 +21,7 @@ const Form:React.FC<IProps> = ({typeForm,
         typeForm===formToggle.SIGN_UP?
             <>
             {error?<p className={styles.error}>{error}</p>:null}
-            <h2 className={styles.title}>Рагистрация</h2>
+            <h2 className={styles.title}>Регистрация</h2>
             <div className={styles.wrapper}>
             <FormInput value={login} type='text'/>
             </div>
